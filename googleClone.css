@@ -1,0 +1,176 @@
+.header{
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+.header-right img{
+    padding-left:10px;
+    height: 30px;
+    width:30px;
+}
+
+.header-left a, .header-right a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;   
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.header-right{
+    position: relative;
+    float:right;
+}
+
+.header-left{
+    position:absolute
+}
+
+.main{
+    position: relative;
+    top: 175px;
+    
+}
+
+.logoSize{
+    display:block;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.logoSize img{
+    display:block;
+    width:300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchBar {
+    display:block;
+    background-color: white;
+   
+    border: solid lightgray 0.5px;
+    border-radius: 3%;
+  
+    width: 500px;
+    height: 40px;
+    box-shadow: 2px 2px 2px lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; 
+}
+
+.searchBarText{
+    
+    background-color: transparent;
+    border: transparent;
+    width:450px;
+    height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+    
+}
+
+.searchBar img{
+    display:inline-block;
+    widows: 40px;
+    height: 40px;
+    float: right;
+}
+
+.searchBar:hover{
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+.Button{
+    position: relative;
+    top:25px;
+    width: 420px;
+    height:60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.Button button { 
+   
+    display: inline-block;
+    width:200px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color:#f2f2f2;
+    color:gray;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+}
+
+.Button button:hover { 
+
+    border:solid black 1px;
+    color:black;
+    
+}
+
+
+.messageText{
+    text-align: center;
+    
+}
+
+.messageText a{
+    color:blue;
+    text-decoration: none;  
+}
+
+.messageText a:hover{
+    text-decoration: underline;
+}
+
+*:focus {
+    outline: none;
+}
+
+.footer{
+    position: absolute;
+
+    background-color:  #f2f2f2;
+    bottom: 10px;
+    left:0px; right:0px;
+    margin: 0px 0 0 0;
+    padding: 10px 0;
+    
+}
+
+.bottom-left a, .bottom-right a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;   
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.bottom-right{
+    position: relative;
+    float:right;
+    padding-right:20px;
+}
+
+.bottom-left{
+    position:absolute
+}
