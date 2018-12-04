@@ -107,13 +107,16 @@
     width:200px;
     height: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
     background-color:#f2f2f2;
     color:gray;
+    border: none;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
     padding:10px;
+    
 }
 
 .Button button:hover { 
@@ -148,7 +151,7 @@
     background-color:  #f2f2f2;
     bottom: 10px;
     left:0px; right:0px;
-    margin: 0px 0 0 0;
+    margin: 0px auto;
     padding: 10px 0;
     
 }
@@ -159,6 +162,8 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;   
+    max-width: 960px;
+    margin:0px auto;
 }
 
 .footer a:hover{
